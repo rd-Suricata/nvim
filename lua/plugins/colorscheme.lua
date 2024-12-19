@@ -1,3 +1,5 @@
+-- /=== colorscheme ==/
+
 return {
   'rebelot/kanagawa.nvim',
   enabled = true,
