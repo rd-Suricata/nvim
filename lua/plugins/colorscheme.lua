@@ -2,6 +2,7 @@
 
 return {
   'rebelot/kanagawa.nvim',
+  --'AlexvZyl/nordic.nvim',
   enabled = true,
   priority = 1000,
   config = function()

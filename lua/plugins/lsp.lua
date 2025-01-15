@@ -9,7 +9,7 @@ return {
       vim.bo[bufnr].omnifunc = 'v:lua.vim.lsp.omnifunc'
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {buffer = bufnr})
     end
-
+    
     require'lspconfig'.rust_analyzer.setup{
       on_attach = on_attach,
       settings = {
@@ -29,5 +29,6 @@ return {
         workspace = { checkThirdParty = false }
       }
     }
+    require'lspconfig'.clangd.setup{}
   end
 }
