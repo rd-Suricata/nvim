@@ -4,6 +4,6 @@ return{
   -- () {} [] '' ""
   'jiangmiao/auto-pairs',
   'terryma/vim-multiple-cursors',
-  'dhruvasagar/vim-table-mode'
+  'dhruvasagar/vim-table-mode',
 }
 
